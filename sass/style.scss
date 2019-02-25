@@ -1,0 +1,223 @@
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+
+$lilo: #5c42b0;
+$white: #f6f4fa;
+$lightgrey: #e7e7e7;
+$grey: #dedede;
+.col-6{
+    padding: 0;
+}
+
+@font-face{
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans-Bold.ttf')
+}
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.woff2')
+}
+
+.page{ 
+    width: 100%;
+    height: 50vw;
+  
+}
+#first_page{
+    background-image: url(../img/football_1920.jpg);
+    background-size: 100% 50vw;
+   
+}
+h4{
+
+    color: $lightgrey;
+}
+h6{
+
+    color: $grey;
+}
+
+#overlay {
+    
+    width: 100%;
+    height: 100%;
+   
+    background-color: rgba(10, 14, 52, 0.9);
+   
+    color: white;
+  }
+  .first_page_logo_pic
+  {
+    background-size: 1.5rem ;
+    
+  -webkit-mask-image: url('../svg/surface_logo_text.svg');
+  background-color: #fff;
+  height: 35px;
+  width: 128px;
+  
+  }
+  .first_page_logo{
+      height: 256px;
+  }
+  .first_page_zag
+  {
+      color: white;
+      font-family: OpenSans-Bold;
+      font-size: 60px;
+      width: 100%;
+      height: 375px;
+  }
+ .first_page_dowload
+ {
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+   
+ }
+  .first_page_dowload_btn
+  {
+    color: white;
+      background-color: $lilo;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      width: 205px;
+      height: 52px;
+      border: 0;
+      margin-left: 34px;
+      border-radius: 25px;
+      font-size: 9px;
+     
+      
+  }
+  .first_page_dowload_btn_img
+  {
+    background-size: 1.5rem;
+    background-color: rgb(248, 246, 246);
+    width: 1.5rem;
+    height: 1.5rem;
+  -webkit-mask-image: url('../svg/google-play.svg');
+  margin-right: 17px;
+     
+  }
+  .first_page_dowload_btn .firstline{
+    font-family: OpenSans-Regular;
+  }
+  .first_page_dowload_btn_text{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .bg-ww
+  {
+    background-color: #fff;
+
+
+  }
+.second-page_left
+{
+    background-image: url(../img/footballer_566.png);
+    background-repeat: no-repeat;
+    background-size: auto 50vw;
+    
+    
+}
+.list
+{
+   display: flex;
+   flex-direction: column;
+}
+.list_atlets{
+    align-items: flex-end;
+}
+.list_item{
+
+    width: 100%;
+    height: 150px;
+   
+    display: flex;
+ 
+}
+.list_item_atlets{
+    justify-content: flex-end;  
+
+}
+
+.list_item_text{
+    display: flex;
+    flex-direction: column;
+
+}
+.list_zag
+{
+
+    font-size: 53px;
+    margin-bottom: 68px;
+}
+.list_item_zag{
+    font-size: 36px;
+  
+}
+.bg-w{
+    background-color: $white;
+}
+.bg-p{
+    background-color: $purple;
+}
+.atlets_pic
+{
+    height: 50vw;
+    width: auto;
+    background-image: url(../img/footballer_566.png);
+    background-size: auto 50vw;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: -45vw;
+}
+.third_page_img
+{
+    width: 100%;
+    display: flex;
+justify-content: flex-end;
+
+}
+.players_pic{
+
+height: 50vw;
+width: auto;
+background-image: url(../img/basketballer_991.png);
+background-size: auto 50vw;
+background-repeat: no-repeat;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin-top: -50vw;
+}
+.four_page_zag
+{
+    margin-top: 170px;
+    margin-bottom: 77px;
+}
+.rect
+{
+    width: 100%;
+    position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin-top:-35vw;
+    
+}
