@@ -1,0 +1,71 @@
+/****************/
+
+.list
+{
+   display: flex;
+   flex-direction: column;
+}
+.list_atlets{
+    align-items: flex-end;
+}
+.list_item{
+    width: 100%;
+    display: flex;
+   
+}
+.list_item_1{
+
+   
+    height:174px;
+    
+ 
+}
+.list_item_2{
+
+   
+    height:184px;
+    
+ 
+}
+.list_item_3{
+
+    
+    height:164px;
+ 
+}
+.list_item_atlets{
+    justify-content: flex-end;  
+
+}
+
+.list_item_text{
+    display: flex;
+    flex-direction: column;
+
+}
+.list_zag
+{
+
+    font-size: 3.7857142857142857142857142857143rem;
+    margin-bottom: 4.8443399586806297641946284818693%;
+}
+.list_item_zag{
+    font-size: 36px;
+  
+}
+.pic{
+    height: 50vw;
+    width: auto;
+    background-size: auto 96vh;//95%;
+    background-repeat: no-repeat;
+    margin-top: -96vh;
+
+}
+.atlets_pic
+{
+    
+    background-image: url(../img/footballer_566.png);
+   
+}
+
+

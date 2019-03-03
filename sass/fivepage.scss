@@ -1,0 +1,37 @@
+#five_page{
+    background-image: url(../img/game_1920.jpg);
+    background-size: 100% 50vw;
+   
+}
+.five_page_zag{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 168px;
+    font-size: 58px;
+    color: white;
+      font-family: OpenSans-Bold;
+      
+      width: 100%;
+}
+.five_page_zag_desc{
+    font-size: 22px;
+    font-family: OpenSans-Regular;
+    color: #a496ca;
+}
+.five_page_zag_logo
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+   
+}
+.five_page_zag_text
+{
+    margin-left: 24px;
+}
+//182
+.five_page_logo
+{
+    margin-top: 182px;
+}
