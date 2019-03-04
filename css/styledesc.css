@@ -3717,18 +3717,7 @@ html {
   background-size: 100% 50vw;
 }
 
-#overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(10, 14, 52, 0.9);
-  color: white;
-}
-
 .first_page_logo_pic {
-  background-size: 1.5rem;
-  -webkit-mask-image: url("../svg/surface_logo_text.svg");
-  -webkit-mask-repeat: no-repeat;
-  mask-size: 128px 35px;
   background-color: #fff;
   height: 4.921882690441703815162211190955vh;
   width: 11.228070175438596491228070175439%;
@@ -3739,52 +3728,29 @@ html {
 }
 
 .first_page_zag {
-  color: white;
-  font-family: OpenSans-Bold;
   font-size: 4.2857142857142857142857142857143rem;
-  width: 100%;
 }
 
 .first_page_dowload {
   margin-top: 10.334996436208125445473984319316%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .first_page_dowload_btn {
-  color: white;
-  background-color: #5c42b0;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 14.604260169551898553822041746812vw;
   height: 7.3125114257991028110981423408474vh;
-  border: 0;
   margin-left: 2.4221699793403148820973142409347vw;
-  border-radius: 25px;
-  font-size: 9px;
-}
-
-.first_page_dowload_btn_img {
-  background-size: 1.5rem;
-  background-color: #f8f6f6;
-  width: 1.5rem;
-  height: 1.5rem;
-  -webkit-mask-image: url("../svg/google-play.svg");
-  margin-right: 2.3906287353573989959359311498924vh;
+  padding-left: 0;
 }
 
 .first_page_dowload_btn .firstline {
   font-family: OpenSans-Regular;
 }
 
-.first_page_dowload_btn_text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/****************/
 .list {
   display: flex;
   flex-direction: column;
@@ -3801,14 +3767,15 @@ html {
 
 .list_item_1 {
   height: 174px;
+  background-color: #fff;
 }
 
 .list_item_2 {
-  height: 184px;
+  height: 263px;
 }
 
 .list_item_3 {
-  height: 164px;
+  height: 229px;
 }
 
 .list_item_atlets {
@@ -3823,6 +3790,9 @@ html {
 .list_zag {
   font-size: 3.7857142857142857142857142857143rem;
   margin-bottom: 4.8443399586806297641946284818693%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .list_item_zag {
@@ -3830,31 +3800,33 @@ html {
 }
 
 .pic {
-  height: 50vw;
+  height: 662px;
   width: auto;
   background-size: auto 96vh;
   background-repeat: no-repeat;
-  margin-top: -96vh;
+  margin-top: -90vh;
 }
 
 .atlets_pic {
   background-image: url(../img/footballer_566.png);
+  order: 3;
 }
 
-/******************************************/
 .third_page_img {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
+  order: 3;
 }
 
 .players_pic {
-  height: 50vw;
+  height: 662px;
   width: auto;
   background-image: url(../img/basketballer_991.png);
-  background-size: auto 50vw;
+  background-size: auto 96vh;
   background-repeat: no-repeat;
-  margin-top: -50vw;
+  margin-top: -97vh;
 }
 
 .list_item_1-2 {
@@ -3869,40 +3841,25 @@ html {
   height: 148px;
 }
 
-.four_page_size {
-  height: 536px;
-}
-
 #five_page {
   background-image: url(../img/game_1920.jpg);
   background-size: 100% 50vw;
 }
 
 .five_page_zag {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   padding-top: 168px;
   font-size: 58px;
   color: white;
   font-family: OpenSans-Bold;
-  width: 100%;
 }
 
 .five_page_zag_desc {
   font-size: 22px;
-  font-family: OpenSans-Regular;
-  color: #a496ca;
 }
 
 .five_page_zag_logo {
   width: 100px;
   height: 100px;
-  display: flex;
-}
-
-.five_page_zag_text {
-  margin-left: 24px;
 }
 
 .five_page_logo {
@@ -3934,6 +3891,10 @@ h6 {
   color: #c1c1c1;
 }
 
+img {
+  padding: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -3944,7 +3905,7 @@ li {
   padding: 0;
 }
 
-.col-6 {
+.col-md-6, .col-sm-12 {
   padding: 0;
 }
 
@@ -3963,10 +3924,22 @@ li {
   height: 50vw;
 }
 
-/***/
+/*******************4***********************/
 .four_page_zag {
   margin-top: 170px;
   margin-bottom: 77px;
+}
+
+.four_page_size_r .four_page_sect {
+  order: 1;
+}
+
+.four_page_size_r picture {
+  order: 2;
+}
+
+.four_page_img {
+  height: 536px;
 }
 
 .rect {
@@ -3977,4 +3950,10 @@ li {
   right: 0;
   bottom: 0;
   margin-top: -35vw;
+}
+
+.four_page_sect_zag {
+  font-size: 3.7857142857142857142857142857143rem;
+  margin-bottom: 4.8443399586806297641946284818693%;
+  display: flex;
 }

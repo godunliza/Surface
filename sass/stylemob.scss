@@ -1,0 +1,89 @@
+
+$lilo: #5c42b0;
+$white: #f6f4fa;
+$lightgrey: #e7e7e7;
+$grey: #dedede;
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+@import 'firstpagemob.scss';
+@import 'secondpagemob.scss';
+@import 'thirdpagemob.scss';
+@import 'fivepagemob.scss';
+.col-md-6,.col-12{
+    padding: 0;
+}
+h4{
+
+    color: $lightgrey;
+}
+h6{
+
+    color: $grey;
+}
+.bg-ww
+  {
+    background-color: #fff;
+  }
+  .bg-w
+  {
+    background-color: $white;
+}
+.bg-p
+{
+    background-color: $lilo;
+}
+.bg-bl
+{
+    background-color: #0a0e34;
+    color: #c1c1c1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    margin:0;
+    padding: 0;
+}
+
+.col-6{
+    padding: 0;
+}
+
+@font-face{
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans-Bold.ttf')
+}
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.woff2')
+}
+.page{ 
+    width: 100%;
+    height: 100vh;
+  
+}
+
+
+/*******************4***********************/
+.four_page_size
+{
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+   & img{
+        order: 1;
+    }
+    & .four_page_sect
+    {
+        order: 2;
+        padding-left: 20px;
+    }
+}
+.four_page_sect_zag {
+    
+    font-size: 28px;
+   
+}

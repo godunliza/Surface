@@ -3,6 +3,7 @@ $lilo: #5c42b0;
 $white: #f6f4fa;
 $lightgrey: #e7e7e7;
 $grey: #dedede;
+
 @import "node_modules/bootstrap/scss/bootstrap-reboot";
 @import 'node_modules/bootstrap/scss/bootstrap-grid';
 @import 'firstpage.scss';
@@ -39,7 +40,9 @@ h6{
 
 
 
-
+img{
+    padding: 0;
+}
 ul{
     margin: 0;
     padding: 0;
@@ -50,7 +53,7 @@ li{
     padding: 0;
 }
 
-.col-6{
+.col-md-6,.col-sm-12{
     padding: 0;
 }
 
@@ -70,12 +73,33 @@ li{
 }
 
 
-/***/
+/*******************4***********************/
 .four_page_zag
 {
     margin-top: 170px;
     margin-bottom: 77px;
 }
+
+.four_page_size_r {
+    & .four_page_sect
+    {
+        order: 1;
+        
+    }
+    & picture{
+        order: 2;
+       
+    }
+    
+
+}
+.four_page_img
+{
+    height: 536px;
+
+}
+
+
 .rect
 {
     width: 100%;
@@ -86,4 +110,10 @@ right: 0;
 bottom: 0;
 margin-top:-35vw;
     
+}
+.four_page_sect_zag {
+    
+    font-size: 3.7857142857142857142857142857143rem;
+    margin-bottom: 4.8443399586806297641946284818693%;
+    display: flex;
 }

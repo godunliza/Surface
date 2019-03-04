@@ -1,20 +1,22 @@
-/******************************************/
+
 
 .third_page_img
 {
     width: 100%;
     display: flex;
+    flex-direction: row;
   justify-content: flex-end;
+  order: 3;
 
 }
 .players_pic{
 
-height: 50vw;
+height: 662px;
 width: auto;
 background-image: url(../img/basketballer_991.png);
-background-size: auto 50vw;
+background-size: auto 96vh;
 background-repeat: no-repeat;
-margin-top: -50vw;
+margin-top: -97vh;
 }
 .list_item_1-2{
 
@@ -36,7 +38,6 @@ margin-top: -50vw;
     height:148px;
  
 }
-.four_page_size
-{
-    height: 536px;
-}
+
+
+
