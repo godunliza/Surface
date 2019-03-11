@@ -83,3 +83,32 @@
    order: 2;
    
 }
+.list_item_zag{
+    display: flex;
+
+}
+
+.list_item_zag_numb{
+    color: black;
+    font-size: 1rem;
+    font-family: OpenSans-Bold;
+    margin-right: 10px;
+  
+  }
+  .list_item_zag_numb:after{
+      content: "";
+      margin-top: -1rem;
+      display: inline-block;
+      width: 1rem;
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: $lilo;
+      vertical-align: middle;
+  
+  
+  }
+  .numb-2_3:after{
+    background-color: #efefef;
+      
+  }

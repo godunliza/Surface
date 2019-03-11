@@ -118,6 +118,11 @@ html, body {
   background-repeat: no-repeat;
 }
 
+.list_item_zag_numb {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
 .third-page {
   width: 100%;
 }
