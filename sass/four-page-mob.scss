@@ -16,6 +16,34 @@
 .four-page_sect_zag {
     
     font-size: 2rem;//28px;
-    margin-top: 34px;/*22px когда будет верстка квадратика*/
+    margin-top: 22px;
    
+}
+
+
+.four-page_block-numb {
+    margin-top: -60px;
+    margin-left: 20px;
+    width: 70px;
+    height: 72px;
+    background-color: $lilo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-family: OpenSans-Bold;
+  }
+
+  .four-page_block-numb:after{
+    content: "";
+   
+    display: inline-block;
+    width: 1rem;
+    height: 4px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: #8f7bc8;
+    vertical-align: middle;
 }

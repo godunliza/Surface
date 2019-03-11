@@ -9,7 +9,10 @@ html, body {
     font-size: 14px;
    }
 
-
+   $lilo: #5c42b0;
+   $white: #f6f4fa;
+   $lightgrey: #e7e7e7;
+   $grey: #dedede;
 @import 'first-page-pl.scss';
 @import 'second-page-pl.scss';
 @import 'third-page-pl.scss';

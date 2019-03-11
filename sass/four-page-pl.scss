@@ -27,4 +27,29 @@
        
     }
 }
+.four-page_block-numb {
+    margin-top: -81px;
+    margin-left: 33px;
+    width: 116px;
+    height: 117px;
+    background-color: $lilo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: OpenSans-Bold;
+  }
 
+  .four-page_block-numb:after{
+    content: "";
+   
+    display: inline-block;
+    width: 1rem;
+    height: 4px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: #8f7bc8;
+    vertical-align: middle;
+}

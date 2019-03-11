@@ -14,9 +14,17 @@
 
 .four-page_sect
 {
+    width:580px;
     margin-top: 12.708333333333333333333333333333%;
-    margin-left: 6.71875%;
-    margin-right: 13.541666666666666666666666666667%;
+   margin-left: 0;//-88px;//6.71875%;
+   margin-right: 0;
+   padding-left: 51px;
+   //margin-right: 300px;
+  
+
+    //margin-right: -13.541666666666666666666666666667%;
+
+    //margin-right: 13.541666666666666666666666666667%;
     padding-left: 0;
     &_zag {
         margin-top: 0;
@@ -30,13 +38,49 @@
 }
 .four-page_sect_r
 {
-    margin-right: 9.4791666666666666666666666666667%;
+    width: 600px;
+   // margin-right: 20%;
 }
 
 .four-page_pic {
    
     order: 2;
+    &_r{
+        margin-left: 17.7%;
+    }
   }
 
+  .four-page_block-numb {
+    margin-left: -84px;
+    width: 172px;
+    height: 152px;
+    background-color: $lilo;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: OpenSans-Bold;
+    &_r{
+        order: 2;
+        margin-left: -54.375%;//-1044px;
+
+    }
+  }
+
+  .four-page_block-numb:after{
+    content: "";
+   
+    display: inline-block;
+    width: 1rem;
+    height: 4px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: #8f7bc8;
+    vertical-align: middle;
+}
  
 
