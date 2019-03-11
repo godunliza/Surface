@@ -1,0 +1,80 @@
+
+   @font-face{
+    font-family: OpenSans-Bold;
+    //font-display: swap;
+    font-weight: bold;
+    src: local("OpenSans-Bold"),
+         url('../fonts/OpenSans-Bold.woff2') ,
+         url('../fonts/OpenSans-Bold.woff') format("woff"),
+         url('../fonts/OpenSans-Bold.ttf') format("ttf");
+
+}
+@font-face{
+    font-family: OpenSans-Regular;
+    font-display: swap;
+    font-weight: normal;
+    src: local("OpenSans-Regular"),
+         url('../fonts/OpenSans-Regular.woff2') format("woff2"),
+         url('../fonts/OpenSans-Regular.woff') format("woff"),
+         url('../fonts/OpenSans-Regular.ttf') format("ttf");
+
+}
+html, body {
+    overflow-x: hidden;
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+   }
+$lilo: #5c42b0;
+$white: #f6f4fa;
+$lightgrey: #e7e7e7;
+$grey: #dedede;
+
+
+@import 'first-page-mob.scss';
+@import 'second-page-mob.scss';
+@import 'third-page-mob.scss';
+@import 'four-page-mob.scss';
+@import 'five-page-mob.scss';
+
+h4{
+
+    color: $lightgrey;
+    font-family: OpenSans-Bold;
+}
+h6{
+    font-family: OpenSans-Bold;
+    color: $grey;
+}
+.bg-ww
+  {
+    background-color: #fff;
+  }
+  .bg-w
+  {
+    background-color: $white;
+}
+.bg-p
+{
+    background-color: $lilo;
+}
+.bg-bl
+{
+    background-color: #0a0e34;
+    color: #c1c1c1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+.third-page{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.third-page_img
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+
+}
+.players_pic{
+
+background-image: url(../img/basketballer_302.png);
+background-repeat: no-repeat;
+order: 2;
+z-index: 1000;
+}
+.list_item_1-2{
+
+    padding-top: 79px;
+    padding-bottom: 58px;
+    background-color: #fafafa;
+    
+ 
+}
+.list_item_2-2{
+
+    padding-top: 22.1875%;//71px;
+    padding-bottom: 18.125%//58px;
+   
+}
+.list_item_3-2{
+
+   padding-top: 18.125%;//58px;
+    padding-bottom: 17.1875%//55px;
+   
+}

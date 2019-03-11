@@ -1,0 +1,321 @@
+@charset "UTF-8";
+@font-face {
+  font-family: OpenSans-Bold;
+  font-weight: bold;
+  src: local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  font-display: swap;
+  font-weight: normal;
+  src: local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("ttf");
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#first-page {
+  height: 568px;
+  background-image: url(../img/football_767.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 568px;
+}
+
+#overlay {
+  height: 100%;
+  padding: 0 6.25% 0 6.25%;
+  background-color: rgba(10, 14, 52, 0.9);
+  color: white;
+}
+
+/*Логотип */
+.first-page_logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48.571428571428571428571428571429%;
+}
+
+.first-page_logo_pic {
+  background-size: 1.5rem;
+  -webkit-mask-image: url("../svg/surface_logo_text.svg");
+  -webkit-mask-repeat: no-repeat;
+  background-color: #fff;
+  width: 134px;
+  height: 6.6901408450704225352112676056338vh;
+  margin-top: 12.142857142857142857142857142857%;
+}
+
+/*Стили заголовка */
+.first-page_zag {
+  color: white;
+  font-family: OpenSans-Bold;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.first-page_zag_2 {
+  padding-left: 16.071428571428571428571428571429%;
+}
+
+/*Стили для кнопок */
+.first-page_dowload {
+  margin-top: 31.428571428571428571428571428571%;
+  display: flex;
+  flex-direction: column;
+  /*Стили для иконки */
+}
+
+.first-page_dowload_btn {
+  height: 33px;
+  color: white;
+  background-color: #5c42b0;
+  display: flex;
+  padding-left: 29.285714285714285714285714285714%;
+  border: 0;
+  border-radius: 25px;
+  font-size: 8px;
+}
+
+.first-page_dowload_btn:first-child {
+  margin-bottom: 5.7142857142857142857142857142857%;
+}
+
+.first-page_dowload_btn_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first-page_dowload_btn .firstline {
+  font-family: OpenSans-Regular;
+}
+
+.first-page_dowload_btn_img {
+  background-size: 1.5rem;
+  background-color: #f8f6f6;
+  width: 1.5rem;
+  height: 1.5rem;
+  -webkit-mask-image: url("../svg/google-play.svg");
+  -webkit-mask-repeat: no-repeat;
+  margin-right: 3.2142857142857142857142857142857%;
+}
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  order: 3;
+  margin-top: -16.875%;
+}
+
+.list_item {
+  display: flex;
+  padding: 0 6.25% 0 6.25%;
+}
+
+.list_item_zag {
+  font-size: 23px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.list_item_1 {
+  padding-top: 25.3125%;
+  padding-bottom: 17.1875%;
+  background-color: #fafafa;
+}
+
+.list_item_2 {
+  padding-top: 18.125%;
+  padding-bottom: 16.875%;
+}
+
+.list_item_3 {
+  padding-top: 17.1875%;
+  padding-bottom: 17.1875%;
+}
+
+.list_item_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.list_zag {
+  font-size: 3.7857142857142857142857142857143rem;
+  margin-bottom: 4.8443399586806297641946284818693%;
+  margin-top: 13px;
+  padding: 0 6.25% 0 6.25%;
+  display: flex;
+  order: 1;
+}
+
+.pic {
+  height: 283px;
+  background-repeat: no-repeat;
+}
+
+.atlets_pic {
+  z-index: 1000;
+  background-image: url(../img/footballer_192.png);
+  margin-left: 14.6875%;
+  order: 2;
+}
+
+.third-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-page_img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+.players_pic {
+  background-image: url(../img/basketballer_302.png);
+  background-repeat: no-repeat;
+  order: 2;
+  z-index: 1000;
+}
+
+.list_item_1-2 {
+  padding-top: 79px;
+  padding-bottom: 58px;
+  background-color: #fafafa;
+}
+
+.list_item_2-2 {
+  padding-top: 22.1875%;
+  padding-bottom: 18.125%;
+}
+
+.list_item_3-2 {
+  padding-top: 18.125%;
+  padding-bottom: 17.1875%;
+}
+
+.four-page_size {
+  height: 536px;
+  display: flex;
+  flex-direction: column;
+}
+
+.four-page_size img {
+  order: 1;
+  width: 100%;
+}
+
+.four-page_size .four-page_sect {
+  order: 2;
+  padding-left: 6.25%;
+}
+
+.four-page_sect_zag {
+  font-size: 2rem;
+  margin-top: 34px;
+  /*22px когда будет верстка квадратика*/
+}
+
+#five-page {
+  background-image: url(../img/game_767.jpg);
+  background-size: 100% 568px;
+}
+
+.five-page_zag {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 31.25%;
+  font-size: 2.3rem;
+  color: white;
+  font-family: OpenSans-Bold;
+  width: 100%;
+}
+
+.five-page_zag_desc {
+  font-size: 1rem;
+  font-family: OpenSans-Regular;
+  color: #a496ca;
+}
+
+.five-page_zag_logo {
+  width: 23.75%;
+  height: 23.75%;
+  display: flex;
+}
+
+.five-page_zag_text {
+  margin-left: 2rem;
+  margin-top: 18.125%;
+}
+
+.five-page_logo {
+  margin-top: 20.3125%;
+  display: flex;
+  justify-content: center;
+}
+
+.five-page_dowload {
+  margin-top: 76px;
+  display: flex;
+  flex-direction: column;
+}
+
+.five-page_logo_pic {
+  background-size: 1.5rem;
+  -webkit-mask-image: url(../svg/surface_logo_text.svg);
+  -webkit-mask-repeat: no-repeat;
+  background-color: #fff;
+  width: 134px;
+  height: 6.6901408450704225352112676056338vh;
+}
+
+h4 {
+  color: #e7e7e7;
+  font-family: OpenSans-Bold;
+}
+
+h6 {
+  font-family: OpenSans-Bold;
+  color: #dedede;
+}
+
+.bg-ww {
+  background-color: #fff;
+}
+
+.bg-w {
+  background-color: #f6f4fa;
+}
+
+.bg-p {
+  background-color: #5c42b0;
+}
+
+.bg-bl {
+  background-color: #0a0e34;
+  color: #c1c1c1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}

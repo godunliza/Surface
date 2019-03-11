@@ -1,0 +1,67 @@
+html, body {
+    overflow-x: hidden;
+   }
+h1{
+    margin: 0;
+}
+  
+$lilo: #5c42b0;
+$white: #f6f4fa;
+$lightgrey: #e7e7e7;
+$grey: #dedede;
+
+
+@import 'first-page-desc.scss';
+@import 'second-page-desc.scss';
+@import 'third-page-desc.scss';
+@import 'four-page-desc.scss';
+@import 'five-page-desc.scss';
+
+
+h4{
+
+    color: $lightgrey;
+    margin: 0;
+}
+h6{
+
+    color: $grey;
+}
+.bg-ww
+  {
+    background-color: #fff;
+  }
+  .bg-w
+  {
+    background-color: $white;
+}
+.bg-p
+{
+    background-color: $lilo;
+}
+.bg-bl
+{
+    background-color: #0a0e34;
+    color: #c1c1c1;
+}
+
+
+
+img{
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    margin:0;
+    padding: 0;
+}
+
+.page{ 
+    width: 100%;
+    height: 50vw;
+  
+}

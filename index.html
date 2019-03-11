@@ -2,12 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/stylemob.css" media="(min-width: 320px)" as="style" crossorigin>
-    <link rel="stylesheet" href="css/stylepl.css" media="(min-width: 768px)" as="style" crossorigin>
-   <link rel="stylesheet" href="css/styledesc.css" media="(min-width: 992px)" as="style" crossorigin>
+<!--Preload img-->
+<link rel="preload" href="img/football_1920.jpg" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/football_1280.jpg" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/football_767.jpg" media="(min-width: 320px) and (max-width: 767px)" as="image">
+
+<link rel="preload" href="img/footballer_566.png" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/footballer_497.png" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/footballer_497.png" media="(min-width: 320px) and (max-width: 767px)" as="image">
+
+<link rel="preload" href="img/basketballer_991.png" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/basketballer_436.png" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/basketballer_302.png" media="(min-width: 320px) and (max-width: 767px)" as="image">
+
+<link rel="preload" href="img/be-active_1024.jpg" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/be-active.jpg" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/be-active_640.jpg" media="(min-width: 320px) and (max-width: 767px)" as="image">
+<link rel="preload" href="img/be-active_960.jpg"  as="image">
+
+<link rel="preload" href="img/find-contact_1024.jpg" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/find-contact.jpg" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/find-contact_640.jpg" media="(min-width: 320px) and (max-width: 767px)" as="image">
+<link rel="preload" href="img/find-contact_960.jpg"  as="image">
+
+<link rel="preload" href="img/work-it_1024.jpg" media="(min-width: 992px) " as="image">
+<link rel="preload" href="img/work-it.jpg" media="(min-width: 768px) and (max-width: 992px)" as="image">
+<link rel="preload" href="img/work-it_640.jpg" media="(min-width: 320px) and (max-width: 767px)" as="image">
+
+<link rel="preload" href="img/work-it_960.jpg"  as="image">
+<link rel="preload" href="img/Logo.png"  as="image">
+
+<!--Preload CSS-->
+
+ <link rel="preload" href="css//main_320.css" as="style" media="(min-width: 320px) " >
+ <link rel="preload" href="css/main_767.css" media="(min-width: 768px)" as="style">
+ <link rel="preload"  href="css/main_1920.css" media="(min-width: 992px)" as="style">
+
+
+
+<link rel="preload" href="img/basketballer_302.png" media="(min-width: 320px) and (max-width: 767px)" as="image">
+
+
+    <link rel="stylesheet" href="css/main_320.css" media="(min-width: 320px) ">
+    <link rel="stylesheet" href="css/main_767.css" media="(min-width: 768px)  " >
+    <link rel="stylesheet" href="css/styledesc.css" media="(min-width: 992px)">
+
+   <link rel="stylesheet" href="css/main_1920.css" media="(min-width: 992px)">
 
     <!-- <link rel="preload" href="css/style.css" as="style" crossorigin>-->
     <title>Surfacet</title>
@@ -15,35 +58,35 @@
 <body>
     <main>
         <!--FirstPage-->
-        <section class="page first_page" id="first_page">
+        <section class="first-page" id="first-page">
                 <section id="overlay">
-                        <div class="container">
-                            
-                        <section class="first_page_logo row justify-content-center ">
-                            <div class="first_page_logo_pic"></div>
+                    
+                   
+                        <section class="first-page_logo ">
+                            <div class="first-page_logo_pic"></div>
                         </section>
                        
-                        <section class="first_page_zag" >
+                        <section class="first-page_zag" >
                             <h1 >
-                                 <!--justify-content-end-->
-                                <div class="row">BE RECRUITED</div>
-                                <div class="row offset-2 ">PLAY COLLEGE <span class=""> SPORT</span> </div>
+                                
+                                <div class="first-page_zag_1">BE RECRUITED</div>
+                                <div class="first-page_zag_2">PLAY COLLEGE <span class=""> SPORTS</span> </div>
                                     
                                     
                             </h1>
-                            <section class="first_page_dowload">
-                                    <button class="first_page_dowload_btn ">
-                                        <span class="first_page_dowload_btn_img"></span>
-                                        <div class="first_page_dowload_btn_text">
+                            <section class="first-page_dowload">
+                                    <button class="first-page_dowload_btn ">
+                                        <span class="first-page_dowload_btn_img"></span>
+                                        <div class="first-page_dowload_btn_text">
                                             <div class="firstline ">DOWLOAD ON THE</div>
                                             APP STORE
                                         </div>
                                         
                 
                                     </button>
-                                    <button class="first_page_dowload_btn ">
-                                         <span class="first_page_dowload_btn_img"> </span>
-                                            <div class="first_page_dowload_btn_text">
+                                    <button class="first-page_dowload_btn ">
+                                         <span class="first-page_dowload_btn_img"> </span>
+                                            <div class="first-page_dowload_btn_text">
                                                 <div class="firstline">GET IT ON   </div>
                                                 GOOGLE PLAY
                                             </div>
@@ -55,7 +98,7 @@
                         
 
                         
-                    </div>
+                   
 
 
 
@@ -64,29 +107,30 @@
         </section>
 
 <!--SecondPage-->
-<section class=" secondpage bg-ww" >
-        <h4 class="list_zag col-md-8 ">ATLETS</h4>
-
-                <ul class="list list_atlets">
-                
-                        
-    
+<section class=" second-page bg-ww " >
+   
+        <h4 class="second-page_list_zag list_zag  ">ATLETS</h4>
+            <ul class="list list_atlets">
+            
                     <li class="list_item list_item_1 list_item_atlets">
-                            <div class="atlets-list_item_text col-md-6">
+                       
+                            <div class="atlets-list_item_text ">
                             <h6 class="list_item_zag">CONNECTION</h6>
                             
                             <p>  Connect with coaches directly, you can ping coaches to view profile.</p>
                         </div>
                     </li>
                     <li class="list_item list_item_2 bg-w list_item_atlets">
-                            <div class="atlets-list_item_text col-md-6">
+                       
+                            <div class="atlets-list_item_text ">
                             <h6 class="list_item_zag">COLLABORATION</h6>
                       
                             <p>Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.</p>
                         </div>
                         </li>
                     <li class=" list_item list_item_3 bg-p list_item_atlets">
-                            <div class="atlets-list_item_text col-md-6">
+                       
+                            <div class="atlets-list_item_text ">
                                     <h6 class="list_item_zag">GROWTH</h6>
                                     <p>Resources and tools for you to get better as a student Athelte. Access 
                                             to training classes, tutor sessions, etc </p>
@@ -94,19 +138,22 @@
                         </li>
                         
                 </ul>
-                <div class="pic atlets_pic col-md-6 offset-2"></div>
+                
+                <div class="pic atlets_pic "></div>
 
         </section>
-         <!--ThirdPage-->
-        <section class="page_third bg-ww">
-                <h4 class="list_zag col-5 offset-1 justify-content-start">PLAYERS</h4>
+   <!--ThirdPage-->
+        <section class="third-page bg-ww">
+
+                <h4 class="list_zag  list_zag_players ">PLAYERS</h4>
                 
 
                 <ul class="list">
                 
     
                     <li class="list_item list_item_1-2">
-                            <div class="atlets-list_item_text col-md-5 offset-1">
+                        
+                            <div class="players-list_item_text ">
                             <h6 class="list_item_zag">CONNECTION</h6>
                             
                             <p>Connect with talented athlete directly, you can watch their skills through 
@@ -114,77 +161,77 @@
                         </div>
                     </li>
                     <li class="list_item list_item_2-2 bg-w ">
-                            <div class="atlets-list_item_text col-md-5 offset-1">
+                            <div class="players-list_item_text  ">
                             <h6 class="list_item_zag">COLLABORATION</h6>
                       
                             <p>Work with recruiter to increase your chances of finding talented athlete.</p>
                         </div>
                         </li>
                     <li class="list_item  list_item_3-2 bg-bl ">
-                            <div class="atlets-list_item_text col-md-5 offset-1">
+                            <div class="players-list_item_text ">
                                     <h6 class="list_item_zag">GROWTH</h6>
                                     <p>Save your time, recruit proper athlets for your team.</p>
                    </div>
                         </li>
                         
-                </ul>
-                
-                <div class="third_page_img">
-                        <div class="pic players_pic col-md-6 "></div>
+                </ul> 
+                <div class="third-page_img">
+                        <div class="pic players_pic"></div>
                 </div>
         </section>
 <!--FourPage-->
 <section >
-               
-            <section class="row four_page_size ">
-                    <picture class="col-md-6 col-sm-12">
-                            <source srcset="img\be-active_640.jpg" media="(max-width: 768px)">
-                                <source srcset="img\be-active_960.jpg" media="(max-width: 992px)">
-                                <source srcset="img\be-active_1024.jpg" media="(max-width: 100px)">   
-                            <img src="img/be-active.jpg" alt="beactive" class="four_page_img col-sm-12">
+              
+            <section class="four-page_size ">
+                    <picture class="">
+                            <source srcset="img\be-active_640.jpg" media="(max-width: 767px)">
+                                <source srcset="img/be-active.jpg" media="(max-width: 992px)">
+                                <source srcset="img\be-active_1024.jpg" media="(max-width: 1000px)">   
+                            <img src="img\be-active_960.jpg" alt="beactive" class="four-page_img ">
                     </picture>
-                    <!--<img src="img/be-active.jpg" alt="beactive" class="four_page_img col-md-6 col-sm-12">-->
-                    <!--<div class="four_page_img-active col-md-6 col-sm-12" ></div>-->
-                    <section class="four_page_sect col-md-5 offset-md-1  col-sm-12">
-                        <h4 class="four_page_sect_zag four_page_zag">
+                    
+                    <section class="four-page_sect ">
+                        <h4 class="four-page_sect_zag four-page_zag">
                             BE ACTIVE
                         </h4>
-                        <p class="four_page_text">Post videos with your skills, Like and follow others 
+                        <p class="four-page_text">Post videos with your skills, Like and follow others 
                                 to be more popular.</p>
                     </section>
 
             </section>
-             <section class="row four_page_size four_page_size_r">
-                    <section class="four_page_sect col-md-5 offset-md-1 col-sm-12  ">
-                        <h4 class="four_page_sect_zag  four_page_zag">
+           <section class="  four-page_size ">
+                
+                    <section class="four-page_sect   four-page_sect_r">
+                        <h4 class="four-page_sect_zag  four-page_zag">
                             FIND CONTACS
                         </h4>
-                        <p class="four_page_text">Post videos with your skills, Like and follow others 
-                                to be more popular.</p>
+                        <p class="four-page_text">Contact others to find right coach or athlete you are
+                            looking for. </p>
                     </section>
-                    <picture class="col-md-6 col-sm-12">
-                            <source srcset="img\find-contact_640.jpg" media="(max-width: 768px)">
-                                <source srcset="img\find-contact_960.jpg" media="(max-width: 992px)">
+
+                    <picture class="four-page_pic">
+                            <source srcset="img\find-contact_640.jpg" media="(max-width: 767px)">
+                                <source srcset="img\find-contact.jpg" media="(max-width: 992px)">
                                 <source srcset="img\find-contact_1024.jpg" media="(max-width: 100px)">   
-                            <img src="img\find-contact.jpg" alt="beactive" class="four_page_img col-sm-12 img-right">
+                            <img src="img\find-contact_960.jpg" alt="beactive" class="four-page_img  img-right">
                     </picture>
 
             </section>
-            <section class="row four_page_size">
+            <section class=" four-page_size">
 
-                    <picture class="col-md-6 col-sm-12">
-                            <source srcset="img\work-it_640.jpg" media="(max-width: 768px)">
-                                <source srcset="img\work-it_960.jpg" media="(max-width: 992px)">
+                    <picture class=" ">
+                            <source srcset="img\work-it_640.jpg" media="(max-width: 767px)">
+                                <source srcset="img\work-it.jpg" media="(max-width: 992px)">
                                 <source srcset="img\work-it_1024.jpg" media="(max-width: 100px)">   
-                            <img src="img\work-it.jpg" alt="beactive" class="four_page_img col-sm-12">
+                            <img src="img\work-it_960.jpg" alt="beactive" class="four-page_img ">
                     </picture>
-                    <!--<img src="img/work-it.jpg" alt="beactive" class="four_page_img col-md-6 col-sm-12">-->
-                    <section class="four_page_sect col-md-5 offset-md-1 col-sm-12  ">
-                        <h4 class="four_page_sect_zag  four_page_zag">
+                    <section class="four-page_sect  ">
+                        <h4 class="four-page_sect_zag  four-page_zag">
                             WORK IT
                         </h4>
-                        <p class="four_page_text">Post videos with your skills, Like and follow others 
-                                to be more popular.</p>
+                        <p class="four-page_text">Enjoy being a student athlete, the recruiting process
+                            can be overwhelming, we want to make this 
+                            enjoyable experience. </p>
                     </section>
             </section>
           
@@ -192,38 +239,39 @@
 </section>
 
  <!--FivePage-->
- <section class="page">
-        <section class="page " id="five_page">
+ <section class="">
+        <section class=" " id="five-page">
                 <section id="overlay">
-                        <div class="container">
+                    
+                        <div class="">
                             
                        
-                        <section class="five_page_zag row">
+                        <section class="five-page_zag ">
                                 
-                          <img src="img/Logo.png" alt="logo" class="five_page_zag_logo">
+                          <img src="img/Logo.png" alt="logo" class="five-page_zag_logo">
 
-                                 <div class="five_page_zag_text">
+                                 <div class="five-page_zag_text">
                           <div class=" ">DOWLOAD APP</div>
                               
-                            <div class="five_page_zag_desc ">SHOW EVERYONE WHAT YOU CAN DO</div>
+                            <div class="five-page_zag_desc ">SHOW EVERYONE WHAT YOU CAN DO</div>
                         </div>
 
                         </section>  
 
       
-                      <section class="first_page_dowload">
-                              <button class="first_page_dowload_btn">
-                                  <span class="first_page_dowload_btn_img"></span>
-                                  <div class="first_page_dowload_btn_text">
+                      <section class="five-page_dowload">
+                              <button class="first-page_dowload_btn">
+                                  <span class="first-page_dowload_btn_img"></span>
+                                  <div class="first-page_dowload_btn_text">
                                       <div class="firstline">DOWLOAD ON THE</div>
                                       APP STORE
                                   </div>
                                   
           
                               </button>
-                              <button class="first_page_dowload_btn">
-                                   <span class="first_page_dowload_btn_img"> </span>
-                                      <div class="first_page_dowload_btn_text">
+                              <button class="first-page_dowload_btn">
+                                   <span class="first-page_dowload_btn_img"> </span>
+                                      <div class="first-page_dowload_btn_text">
                                           <div class="firstline">GET IT ON</div>
                                           APP STORE
                                       </div>
@@ -233,8 +281,9 @@
 
                         </div>
                        
-                                <section class="five_page_logo row justify-content-center ">
-                                        <div class="first_page_logo_pic"></div>
+                       
+                                <section class="five-page_logo">
+                                        <div class="five-page_logo_pic"></div>
                                     </section>
                             
                         </section>

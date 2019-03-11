@@ -1,0 +1,55 @@
+
+#first-page{
+  height: 960px;
+  background-image: url(../img/football_767.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.first-page_zag{
+    
+    font-size: 4.6rem;//64px;
+    
+}
+ /*Логотип */
+.first-page_logo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 26.339285714285714285714285714286%;//42.5%;//136px;
+   
+}
+.first-page_logo_pic
+{
+  margin-top: 5.952380952380952380952380952381%;
+  width: 31.39880952380952380952380952381%;
+  height: 60px;
+
+}
+/*Стили для кнопок */
+.first-page_dowload
+ {
+    display: flex;
+    flex-direction: row;
+    &_btn{
+      justify-content: center;
+      align-items: center;
+      width: 45.982142857142857142857142857143%;//309px;
+      height: 10.416666666666666666666666666667vw;
+      margin-left: 4.3154761904761904761904761904762%;//29px;
+      margin-bottom: 0;
+      padding-left: 0;
+      font-size: 1rem;
+      border-radius: 42px;
+
+    }
+    &_img{
+      width: 14.006514657980456026058631921824%;//43px;
+      height: 43px;
+    }
+    &_btn .firstline{
+      font-family: OpenSans-Regular;
+
+    }
+   
+ }
+  

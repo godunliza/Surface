@@ -1,0 +1,78 @@
+
+.list
+{
+   display: flex;
+   flex-direction: column;  
+   flex-wrap: nowrap;
+   margin-top: 0;
+}
+
+
+.list_item{
+    width: 100%;
+    display: flex;
+   
+}
+.second-page_list_zag{
+    margin-left: 31.25%;//240px;  
+  
+}
+.list_item_1{
+
+   padding-top: 7.5520833333333333333333333333333%;//58px;
+   padding-bottom: 5.078125%;//39px;
+    background-color: #fff;
+    
+ 
+}
+
+.list_item_2{
+    padding-top: 5.2083333333333333333333333333333%;//40px;
+   padding-bottom: 5.2083333333333333333333333333333%;//40px;
+    //height:238px; 
+ 
+}
+.list_item_3{
+    padding-top: 5.2083333333333333333333333333333%;//40px;
+   padding-bottom: 4.6875%;//36px;
+
+    
+  //  height:183px;
+ 
+}
+
+.atlets-list_item_text {
+    margin-left: 35.714285714285714285714285714286%;//240px; 
+}
+.list_zag
+{
+
+
+   font-size: 3.7857142857142857142857142857143rem;
+   margin-bottom: 0;
+   display: flex;
+   align-items: flex-end;
+    
+}
+.list_item_zag{
+    
+    font-size: 36px;
+    
+  
+}
+
+.atlets_pic
+{
+    
+    background-image: url(../img/footballer_497.png);
+    order: 3;
+   margin-top: -87.109375%;//-669px;
+   margin-left:-21.354166666666666666666666666667%;//-164px;
+   height: 699px ;
+   width: 64.713541666666666666666666666667%;//497px;
+   background-size:  100% 100%;
+   background-repeat: no-repeat;
+   
+
+   
+}

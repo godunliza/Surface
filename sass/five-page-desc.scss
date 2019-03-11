@@ -1,0 +1,48 @@
+#five-page{
+    height: 963px;
+    background-image: url(../img/game_1920.jpg);
+    background-size: 100% 100%;  
+}
+.five-page_zag{
+    padding-top: 13.928571428571428571428571428571%;
+    font-size: 5.7142857142857142857142857142857rem;//80px;
+    color: white;
+      font-family: OpenSans-Bold;
+    flex-direction: row;
+    }
+      
+      
+.five-page_zag_text{
+    margin-top: 0;
+
+      }   
+.five-page_zag_desc{
+    font-size: 2.1428571428571428571428571428571rem;
+   
+}
+.five-page_zag_logo
+{
+    width: 8.2142857142857142857142857142857%;
+    height: 138px;
+   
+}
+
+.five-page_logo
+{
+    margin-top: 10.833333333333333333333333333333%;//182px;
+}
+
+.five-page_dowload {
+
+        margin-top: 8.9880952380952380952380952380952%;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+    .five-page_logo_pic
+    {
+        width: 11.666666666666666666666666666667%;//196px;
+        height: 53px;
+    }

@@ -1,0 +1,17 @@
+
+button{
+    padding: 0;
+   
+}
+html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+    font-size: 14px;
+   }
+
+
+@import 'first-page-pl.scss';
+@import 'second-page-pl.scss';
+@import 'third-page-pl.scss';
+@import 'four-page-pl.scss';
+@import 'five-page-pl.scss';

@@ -1,0 +1,42 @@
+
+.four-page_size
+{
+    flex-direction: row;
+    height: 727px;
+    width: 100%;
+    img{
+        width: 50vw;//960px;
+    }
+    & .four-page_sect {
+        order: 1;
+      }
+}
+
+.four-page_sect
+{
+    margin-top: 12.708333333333333333333333333333%;
+    margin-left: 6.71875%;
+    margin-right: 13.541666666666666666666666666667%;
+    padding-left: 0;
+    &_zag {
+        margin-top: 0;
+        font-size: 80px;
+    
+    }
+    
+ 
+   
+
+}
+.four-page_sect_r
+{
+    margin-right: 9.4791666666666666666666666666667%;
+}
+
+.four-page_pic {
+   
+    order: 2;
+  }
+
+ 
+
